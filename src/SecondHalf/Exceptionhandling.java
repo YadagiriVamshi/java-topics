@@ -1,0 +1,19 @@
+package SecondHalf;
+
+public class Exceptionhandling {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			int a=10/0;
+		}
+		catch(ArithmeticException e) {
+			System.out.println("arithmetic exception");
+		}
+		finally {
+			System.out.println("done");
+		}
+
+	}
+
+}
